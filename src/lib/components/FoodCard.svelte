@@ -89,7 +89,7 @@
 				}
 			}
 		} catch (error) {
-			recipe.totalLikes = recipe.likes + (recipe.bookmarked ? -1 : 1);
+			recipe.totalLikes = recipe.likes + (recipe.bookmarked ? 0 : 1);
 			recipe.bookmarked = !recipe.bookmarked;
 			toastStore.trigger({
 				message: error as string,
