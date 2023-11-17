@@ -115,7 +115,7 @@
 
 	const onCompleteHandler = () => {
 		const t: ToastSettings = {
-			message: 'Congratulations, you have made it to the last step. The food looks tasty! 🤤',
+			message: 'Congratulations, you have made it to the last step. Good luck and enjoy your meal!',
 			background: 'variant-filled-success'
 		};
 
@@ -231,7 +231,7 @@
 									{/each}
 								{:else}
 									<dl class="list-dl">
-										<div class="text-left">Oh nyo, no instructions data recorded.. 👉👈</div>
+										<div class="text-left">No instructions available</div>
 									</dl>
 								{/if}
 								<!-- ... -->

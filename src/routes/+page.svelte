@@ -37,12 +37,12 @@
 				recipes = result.data?.recipes;
 				if (recipes.length === 0) {
 					t = {
-						message: `Sorry, we couldn't find any recipes with those ingredients.. 😢`,
+						message: `Sorry, there is no recipes with those ingredients`,
 						background: 'variant-filled-error'
 					};
 				} else {
 					t = {
-						message: `We have found ${recipes.length} recipes for you to try! 😋`,
+						message: `We have found ${recipes.length} recipe recommendations for you!`,
 						background: 'variant-filled-tertiary'
 					};
 				}
@@ -71,7 +71,7 @@
 		<figure class="max-w-[45rem]">
 			<!-- <section class="img-bg" /> -->
 			<img src={logo} alt="WhatTheFridge" />
-			<h3>Find out what you can make, with what you have!</h3>
+			<h3>Slogan Wigwog!</h3>
 		</figure>
 		<!-- / -->
 		<form action="?/fetchRecipes" method="post" class="w-full" use:enhance={handleRecipes}>

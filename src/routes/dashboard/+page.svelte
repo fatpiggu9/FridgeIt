@@ -103,7 +103,7 @@
 			</div>
 			<Paginator bind:settings={paginatorSettings} class="mt-10" />
 		{:else}
-			<span class="p-5">You have no favourites recipes..</span>
+			<span class="p-5">You have no favourite recipes..</span>
 		{/if}
 	</div>
 </div>
