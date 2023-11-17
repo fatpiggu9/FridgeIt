@@ -132,7 +132,7 @@ export const actions: Actions = {
 		if (type === 'ingredients') {
 			if (!ingredients) {
 				return fail(400, {
-					error: 'Please enter at least one ingredient'
+					error: 'You need to enter at least one ingredient'
 				});
 			}
 

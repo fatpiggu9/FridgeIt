@@ -68,7 +68,7 @@
 		if (session?.user) goto('/dashboard');
 		else {
 			toastStore.trigger({
-				message: 'You need to be authenticated first to access the dashboard!',
+				message: 'Sign in to access the dashboard',
 				background: 'variant-filled-warning',
 				action: {
 					label: 'Sign In',
@@ -98,7 +98,7 @@
 			if (result.type === 'redirect') {
 				await invalidate('supabase:auth');
 				toastStore.trigger({
-					message: 'You have been logged out. See you soon!',
+					message: 'You have been logged out successfully',
 					background: 'variant-filled-secondary'
 				});
 			} else {
@@ -115,7 +115,7 @@
 
 	const onCompleteHandler = () => {
 		const t: ToastSettings = {
-			message: 'Congratulations, you have made it to the last step. Good luck and enjoy your meal!',
+			message: 'Congratulations, you have made it to the final step. Enjoy your meal!',
 			background: 'variant-filled-success'
 		};
 
@@ -379,7 +379,7 @@
 							class="btn hover:variant-soft-primary !font-normal"
 							use:popup={{ event: 'click', target: 'features' }}
 						>
-							<span>Hello, {username}!</span>
+							<span>Welcome, {username}!</span>
 							<Icon data={chevronDown} scale={0.7} class="opacity-50" />
 						</button>
 						<!-- popup -->
@@ -441,15 +441,7 @@
 	<svelte:fragment slot="pageFooter">
 		<footer class="text-center p-5">
 			<p>
-				Powered by <a
-					href="https://www.skeleton.dev/"
-					target="_blank"
-					class="!no-underline !text-secondary-900">Skeleton</a
-				>
-				and
-				<a href="https://supabase.com/" target="_blank" class="!no-underline !text-secondary-900"
-					>Supabase</a
-				>.
+				Copyright © 2023, FridgeIt.  All Rights Reserved
 			</p>
 		</footer>
 	</svelte:fragment>
