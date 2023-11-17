@@ -440,7 +440,6 @@
 
 	<svelte:fragment slot="pageFooter">
 		<footer class="text-center p-5">
-			<p>Made with ❤️ in BINUS.</p>
 			<p>
 				Powered by <a
 					href="https://www.skeleton.dev/"
