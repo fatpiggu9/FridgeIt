@@ -7,23 +7,24 @@
 		<h1>About</h1>
 		<div class="max-w-[45rem] text-left text-lg space-y-3 text-justify">
 			<p>
-				Say goodbye to the frustration of trying to figure out what to cook for dinner. Our app
-				simplifies the process by providing you with a list of recipes that match your preferences
-				and the ingredients you have on hand. No more wasted food or trips to the grocery store for
-				that one missing ingredient.
+				Introducing FridgeIt ! , where culinary creativity meets the convenience of your kitchen! 
+				Designed with heart to inspire home cooks with a personalized and intuitive cooking experience of all cooking skill levels. 
+				We understand the joy of experimenting with ingredients on hand, and that's why we've crafted a digital cookbook 
+				that revolves around you.
 			</p>
 
 			<p>
-				We believe that cooking at home should be enjoyable and stress-free, which is why we've
-				designed our app to be user-friendly and easy to navigate. With step-by-step instructions
-				and useful cooking tips, our app makes it easy to create delicious and healthy meals in no
-				time.
+				At FridgeIt, we believe that everyone can be a chef, and our platform is designed to ease and guide you through the culinary process. 
+				Whether you're a seasoned home cook or a kitchen novice, our goal is to simplify the cooking journey by providing you with personalized recipes 
+				based on the ingredients you have available. Discover the magic of turning everyday items into extraordinary dishes, 
+				and embark on a flavorful adventure with us.
 			</p>
 
 			<p>
-				Our app is regularly updated with new recipes and features, so you'll never run out of
-				options. Join our community of food lovers and start cooking up a storm today with our
-				recipe app that takes the guesswork out of meal planning.
+				Our app is regularly updated with new recipes and features, hence we strive to foster a community that celebrates diversity
+				in taste and embraces the joy of creating delicious meals. Join us on this gastronomic exploration, where your kitchen 
+				becomes the canvas, and your ingredients transform into culinary masterpieces. 
+				Together, let's savor the art of home cooking at FridgeIt.
 			</p>
 		</div>
 	</div>
