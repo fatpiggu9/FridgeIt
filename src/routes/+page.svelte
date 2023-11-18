@@ -71,7 +71,7 @@
 		<figure class="max-w-[45rem]">
 			<!-- <section class="img-bg" /> -->
 			<img src={logo} alt="WhatTheFridge" />
-			<h3>Insert Slogan Here!	</h3>
+			<h3> Your Ingredients, Your Recipes, Your Way!	</h3>
 		</figure>
 		<!-- / -->
 		<form action="?/fetchRecipes" method="post" class="w-full" use:enhance={handleRecipes}>
