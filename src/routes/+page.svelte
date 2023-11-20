@@ -12,7 +12,7 @@
 	import { RadioGroup, RadioItem } from '@skeletonlabs/skeleton';
 
 	let recipes: App.Recipe[] = [];
-	let list: string[] = ['awigwog'];
+	let list: string[] = ['rice'];
 	let loading: boolean = false;
 	let searchBy: 'ingredients' | 'name' = 'ingredients';
 	let searchByNameValue:string;
